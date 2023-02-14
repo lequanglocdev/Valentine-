@@ -214,8 +214,10 @@ svg .cls-3 {
     align-items: center;
     transition: 2s;
     z-index: 1000000;
+    background: #fc406f;
+
     animation: toast-button 2s ease-in-out forwards;
-    background: url("../images/bgr4.jpg") top center / cover no-repeat;
+    /* background: url("../images/bgr4.jpg") top center / cover no-repeat; */
 }
 
 @keyframes toast-button {
@@ -258,15 +260,11 @@ svg .cls-3 {
     height: 340px;
     background: #a0d5d3;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     border-radius: 50%;
     margin-top: -60px;
     -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     border: 10px solid #f8e7dc;
     overflow: hidden;
 }
@@ -280,7 +278,7 @@ svg .cls-3 {
 
 p {
     padding: 0;
-    margin-top: 90%;
+    margin-top: 30%;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Ms Madi', chữ thảo;
